@@ -14,7 +14,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS THE LEGEND NAWAB*",
 // set the auto reply massage on status reply
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups    
@@ -36,19 +36,19 @@ DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "923059395959",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "MR-SHABAN",
+OWNER_NAME: process.env.OWNER_NAME || "THE LEGEND NAWAB",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Mʀ Sʜᴀʙᴀɴ*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/tasodv.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *SHABAN-MD*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> THE LEGEND NAWAB IS HERE GUY,S",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
-ANTI_BAD: process.env.ANTI_BAD || "false",
+ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -58,7 +58,7 @@ AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
 AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
