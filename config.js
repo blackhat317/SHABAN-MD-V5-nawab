@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~fd8EDAZT#nyfjXT-UEhw_YMwT4t_DgY6neQqpan_Pc7fxX3xLNs0",
+SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~yIECTLaY#IDq73HI-QnLpR5fY0XZxzjCGRi_hI0WBy9vmPmh2J6U",
 // add your Session Id
 AUTO_BIO: process.env.AUTO_BIO || "true", 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
@@ -14,7 +14,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY THE SHABAN-MD*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY THE LEGEND NAWAB*",
 // set the auto reply massage on status reply
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups    
