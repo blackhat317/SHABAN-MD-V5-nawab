@@ -60,7 +60,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
@@ -73,7 +73,7 @@ DEV: process.env.DEV || "923059395959",
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view
 ANTI_CALL: process.env.ANTI_CALL || "true",
-REJECT_MSG: process.env.REJECT_MSG || "*_SOORY MY BOSS IS BUSY PLEASE DONT CALL ME_*", 
+REJECT_MSG: process.env.REJECT_MSG || "*_𝐀𝐁𝐄𝐄 𝐁𝐙𝐘 𝐇𝐔𝐍 𝐅𝐑𝐄𝐄 𝐇𝐎 𝐊𝐀𝐑 𝐊𝐑𝐓𝐀 𝐇𝐔 𝐖𝐀𝐏𝐈𝐒_*", 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", 
 // change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
