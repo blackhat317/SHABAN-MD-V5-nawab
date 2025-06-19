@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~LdEzSDja#qi5doa0-U1WHS0KSyFw3Dh2FpsIIjrqNxiFjs5litP0",
 // add your Session Id
-AUTO_BIO: process.env.AUTO_BIO || "true", 
+AUTO_BIO: process.env.AUTO_BIO || "false", 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
@@ -18,7 +18,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY SHABAN MD*
 // set the auto reply massage on status reply
 WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
-ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
+ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
@@ -60,7 +60,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
@@ -73,7 +73,7 @@ DEV: process.env.DEV || "923059395959",
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view
 ANTI_CALL: process.env.ANTI_CALL || "true",
-REJECT_MSG: process.env.REJECT_MSG || "*_𝐀𝐁𝐄𝐄 𝐁𝐙𝐘 𝐇𝐔𝐍 𝐅𝐑𝐄𝐄 𝐇𝐎 𝐊𝐀𝐑 𝐊𝐑𝐓𝐀 𝐇𝐔 𝐖𝐀𝐏𝐈𝐒_*", 
+REJECT_MSG: process.env.REJECT_MSG || "*_ABE BZY HU JANU K SATH FREE HO KAR KARTA HUN_*", 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", 
 // change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
