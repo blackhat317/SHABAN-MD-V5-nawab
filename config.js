@@ -74,7 +74,7 @@ ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view
 ANTI_CALL: process.env.ANTI_CALL || "true",
 REJECT_MSG: process.env.REJECT_MSG || "*_ABE BZY HU JANU K SATH FREE HO KAR KARTA HUN_*", 
-ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", 
+ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'same' if you want to resend deleted message in same chat 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // make it true for auto recoding 
