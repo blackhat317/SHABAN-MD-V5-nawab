@@ -18,7 +18,7 @@ cmd({
   }  
 
   try {  
-    await reply("```🔍 Checking for SHABAN-MD updates...```\n");  
+    await reply("```🔍 Checking for NAWAB-MD updates...```\n");  
       
     // Get latest commit from GitHub  
     const { data: commitData } = await axios.get("https://api.github.com/repos/shani-kh/AK/commits/main");  
@@ -34,10 +34,10 @@ cmd({
     }  
 
     if (latestCommitHash === currentHash) {  
-      return reply("```✅ Your SHABAN-MD bot is already up-to-date!```\n");  
+      return reply("```✅ Your NAWAB-MD bot is already up-to-date!```\n");  
     }  
 
-    await reply("```SHABAN-MD Bot Updating...🚀```\n");  
+    await reply("```NAWAB-MD Bot Updating...🚀```\n");  
       
     // Download latest code  
     const zipPath = path.join(__dirname, "latest.zip");  
